@@ -1,0 +1,10 @@
+numpy
+scikit-learn
+gradio
+langchain-core
+langchain-ollama
+opencv-python-headless
+onnxruntime
+pypdf
+python-docx
+beautifulsoup4

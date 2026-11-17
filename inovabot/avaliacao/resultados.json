@@ -1,0 +1,1137 @@
+{
+ "recuperacao": {
+  "tfidf|todas": {
+   "n": 75,
+   "R@1": 0.7866666666666666,
+   "R@3": 0.8933333333333333,
+   "R@5": 0.9466666666666667,
+   "MRR": 0.8543761423761425
+  },
+  "tfidf|dificeis": {
+   "n": 12,
+   "R@1": 0.6666666666666666,
+   "R@3": 0.8333333333333334,
+   "R@5": 0.8333333333333334,
+   "MRR": 0.7619047619047619
+  },
+  "bm25|todas": {
+   "n": 75,
+   "R@1": 0.7466666666666667,
+   "R@3": 0.92,
+   "R@5": 0.9333333333333333,
+   "MRR": 0.8346243386243386
+  },
+  "bm25|dificeis": {
+   "n": 12,
+   "R@1": 0.5833333333333334,
+   "R@3": 0.8333333333333334,
+   "R@5": 0.8333333333333334,
+   "MRR": 0.6924603174603176
+  },
+  "bm25_stem|todas": {
+   "n": 75,
+   "R@1": 0.8,
+   "R@3": 0.9066666666666666,
+   "R@5": 0.9733333333333334,
+   "MRR": 0.8660529100529101
+  },
+  "bm25_stem|dificeis": {
+   "n": 12,
+   "R@1": 0.5,
+   "R@3": 0.75,
+   "R@5": 0.9166666666666666,
+   "MRR": 0.6646825396825397
+  },
+  "char|todas": {
+   "n": 75,
+   "R@1": 0.8266666666666667,
+   "R@3": 0.9466666666666667,
+   "R@5": 0.9733333333333334,
+   "MRR": 0.8902222222222222
+  },
+  "char|dificeis": {
+   "n": 12,
+   "R@1": 0.6666666666666666,
+   "R@3": 0.9166666666666666,
+   "R@5": 0.9166666666666666,
+   "MRR": 0.7722222222222223
+  },
+  "hibrido|todas": {
+   "n": 75,
+   "R@1": 0.8266666666666667,
+   "R@3": 0.9066666666666666,
+   "R@5": 0.96,
+   "MRR": 0.8857142857142858
+  },
+  "hibrido|dificeis": {
+   "n": 12,
+   "R@1": 0.5833333333333334,
+   "R@3": 0.75,
+   "R@5": 0.9166666666666666,
+   "MRR": 0.7202380952380952
+  }
+ },
+ "calibracao": {
+  "curva": [
+   {
+    "limiar": 0.0,
+    "aceita_em_escopo": 1.0,
+    "recusa_fora": 0.0
+   },
+   {
+    "limiar": 0.01,
+    "aceita_em_escopo": 1.0,
+    "recusa_fora": 0.375
+   },
+   {
+    "limiar": 0.02,
+    "aceita_em_escopo": 1.0,
+    "recusa_fora": 0.375
+   },
+   {
+    "limiar": 0.03,
+    "aceita_em_escopo": 1.0,
+    "recusa_fora": 0.375
+   },
+   {
+    "limiar": 0.04,
+    "aceita_em_escopo": 1.0,
+    "recusa_fora": 0.375
+   },
+   {
+    "limiar": 0.05,
+    "aceita_em_escopo": 1.0,
+    "recusa_fora": 0.375
+   },
+   {
+    "limiar": 0.06,
+    "aceita_em_escopo": 1.0,
+    "recusa_fora": 0.375
+   },
+   {
+    "limiar": 0.07,
+    "aceita_em_escopo": 1.0,
+    "recusa_fora": 0.375
+   },
+   {
+    "limiar": 0.08,
+    "aceita_em_escopo": 1.0,
+    "recusa_fora": 0.375
+   },
+   {
+    "limiar": 0.09,
+    "aceita_em_escopo": 1.0,
+    "recusa_fora": 0.375
+   },
+   {
+    "limiar": 0.1,
+    "aceita_em_escopo": 1.0,
+    "recusa_fora": 0.5625
+   },
+   {
+    "limiar": 0.11,
+    "aceita_em_escopo": 1.0,
+    "recusa_fora": 0.5625
+   },
+   {
+    "limiar": 0.12,
+    "aceita_em_escopo": 0.9866666666666667,
+    "recusa_fora": 0.625
+   },
+   {
+    "limiar": 0.13,
+    "aceita_em_escopo": 0.9866666666666667,
+    "recusa_fora": 0.625
+   },
+   {
+    "limiar": 0.14,
+    "aceita_em_escopo": 0.9733333333333334,
+    "recusa_fora": 0.75
+   },
+   {
+    "limiar": 0.15,
+    "aceita_em_escopo": 0.96,
+    "recusa_fora": 0.75
+   },
+   {
+    "limiar": 0.16,
+    "aceita_em_escopo": 0.96,
+    "recusa_fora": 0.75
+   },
+   {
+    "limiar": 0.17,
+    "aceita_em_escopo": 0.96,
+    "recusa_fora": 0.8125
+   },
+   {
+    "limiar": 0.18,
+    "aceita_em_escopo": 0.96,
+    "recusa_fora": 0.875
+   },
+   {
+    "limiar": 0.19,
+    "aceita_em_escopo": 0.96,
+    "recusa_fora": 0.875
+   },
+   {
+    "limiar": 0.2,
+    "aceita_em_escopo": 0.8933333333333333,
+    "recusa_fora": 0.875
+   },
+   {
+    "limiar": 0.21,
+    "aceita_em_escopo": 0.84,
+    "recusa_fora": 0.875
+   },
+   {
+    "limiar": 0.22,
+    "aceita_em_escopo": 0.7733333333333333,
+    "recusa_fora": 0.9375
+   },
+   {
+    "limiar": 0.23,
+    "aceita_em_escopo": 0.7466666666666667,
+    "recusa_fora": 0.9375
+   },
+   {
+    "limiar": 0.24,
+    "aceita_em_escopo": 0.72,
+    "recusa_fora": 1.0
+   },
+   {
+    "limiar": 0.25,
+    "aceita_em_escopo": 0.68,
+    "recusa_fora": 1.0
+   },
+   {
+    "limiar": 0.26,
+    "aceita_em_escopo": 0.6533333333333333,
+    "recusa_fora": 1.0
+   },
+   {
+    "limiar": 0.27,
+    "aceita_em_escopo": 0.64,
+    "recusa_fora": 1.0
+   },
+   {
+    "limiar": 0.28,
+    "aceita_em_escopo": 0.6133333333333333,
+    "recusa_fora": 1.0
+   },
+   {
+    "limiar": 0.29,
+    "aceita_em_escopo": 0.5733333333333334,
+    "recusa_fora": 1.0
+   },
+   {
+    "limiar": 0.3,
+    "aceita_em_escopo": 0.5333333333333333,
+    "recusa_fora": 1.0
+   },
+   {
+    "limiar": 0.31,
+    "aceita_em_escopo": 0.49333333333333335,
+    "recusa_fora": 1.0
+   },
+   {
+    "limiar": 0.32,
+    "aceita_em_escopo": 0.49333333333333335,
+    "recusa_fora": 1.0
+   },
+   {
+    "limiar": 0.33,
+    "aceita_em_escopo": 0.4666666666666667,
+    "recusa_fora": 1.0
+   },
+   {
+    "limiar": 0.34,
+    "aceita_em_escopo": 0.4666666666666667,
+    "recusa_fora": 1.0
+   },
+   {
+    "limiar": 0.35,
+    "aceita_em_escopo": 0.4533333333333333,
+    "recusa_fora": 1.0
+   },
+   {
+    "limiar": 0.36,
+    "aceita_em_escopo": 0.4266666666666667,
+    "recusa_fora": 1.0
+   },
+   {
+    "limiar": 0.37,
+    "aceita_em_escopo": 0.38666666666666666,
+    "recusa_fora": 1.0
+   },
+   {
+    "limiar": 0.38,
+    "aceita_em_escopo": 0.3333333333333333,
+    "recusa_fora": 1.0
+   },
+   {
+    "limiar": 0.39,
+    "aceita_em_escopo": 0.29333333333333333,
+    "recusa_fora": 1.0
+   },
+   {
+    "limiar": 0.4,
+    "aceita_em_escopo": 0.25333333333333335,
+    "recusa_fora": 1.0
+   }
+  ],
+  "sim_em_escopo_min": 0.11626045110955358,
+  "sim_em_escopo_med": 0.30475271203531157,
+  "sim_fora_max": 0.23633687201416015,
+  "sim_fora_med": 0.09653442923617227
+ },
+ "limiar_usado": 0.15,
+ "recusa_em_escopo_errada": [
+  "o que acontece se eu colocar meu telefone no relato?",
+  "como aumento o tamanho da letra?",
+  "quero saber se alguém já avisou desse mesmo buraco"
+ ],
+ "fora_aceito_errado": [
+  "como abrir um CNPJ?",
+  "quanto custa um iPhone novo?",
+  "como funciona um motor de combustão?",
+  "como pedir a segunda via do IPTU?"
+ ],
+ "sim_fora": {
+  "qual a previsão do tempo para amanhã?": 0.111,
+  "me conte uma piada": 0.091,
+  "como declarar imposto de renda?": 0.0,
+  "qual a receita de bolo de cenoura?": 0.095,
+  "quem ganhou o campeonato brasileiro?": 0.098,
+  "como abrir um CNPJ?": 0.236,
+  "qual a capital da França?": 0.0,
+  "como instalar o Python no Windows?": 0.0,
+  "me indique um filme de ficção científica": 0.0,
+  "quanto custa um iPhone novo?": 0.168,
+  "como funciona um motor de combustão?": 0.178,
+  "traduza hello world para o francês": 0.0,
+  "quem foi Santos Dumont?": 0.0,
+  "qual o horário do metrô?": 0.139,
+  "como pedir a segunda via do IPTU?": 0.214,
+  "como funciona a coleta seletiva no meu bairro?": 0.138
+ },
+ "agente_extrativo": {
+  "n": 75,
+  "respondeu": 71,
+  "recusou_indevido": 4,
+  "fonte_correta": 0.8266666666666667,
+  "fato_esperado_presente": 0.7066666666666667,
+  "falhas_fato": [
+   "como faço pra mandar um relato de buraco na minha rua?",
+   "quais tipos de problema a InovaCity atende?",
+   "qual órgão cuida dos alagamentos?",
+   "meu problema não é de nenhum desses tipos, e agora?",
+   "o que acontece se duas pessoas relatam o mesmo buraco?",
+   "quem decide quando o robô fica na dúvida?",
+   "o robô acerta sempre a categoria?",
+   "em quanto tempo meu problema vai ser resolvido?",
+   "como vejo só os relatos que eu enviei?",
+   "quantas vezes o sistema tenta avisar o órgão?",
+   "o que acontece se o envio ao órgão falhar?",
+   "posso usar a InovaCity pra chamar os bombeiros?",
+   "qual o número da Defesa Civil?",
+   "como crio uma conta?",
+   "o que a plataforma faz pra não favorecer bairros com mais acesso?",
+   "o sistema erra a categoria às vezes?",
+   "pq meu relato foi parar na fila de uma pessoa?",
+   "oq acontece qnd o robo nao tem certeza?"
+  ]
+ },
+ "saidas": [
+  {
+   "q": "como faço pra mandar um relato de buraco na minha rua?",
+   "tipo": "resposta",
+   "fontes": [
+    "02_categorias"
+   ],
+   "ok_doc": false,
+   "ok_fato": false,
+   "texto": "Iluminação pública: poste apagado, lâmpada queimada, rua escura. Alagamento e drenagem: boca de lobo entupida, rua que alaga na chuva. A InovaCity classifica os relatos em cinco categorias: buraco na via, iluminação pública, lixo e entulho, alagamento e drenagem, e calçada e acessibilidade. [02_categorias]"
+  },
+  {
+   "q": "preciso estar logado pra relatar?",
+   "tipo": "resposta",
+   "fontes": [
+    "01_como_relatar"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "É preciso estar logado: sem conta, o site leva você à tela de entrada. [01_como_relatar]"
+  },
+  {
+   "q": "qual o tamanho máximo da foto?",
+   "tipo": "resposta",
+   "fontes": [
+    "01_como_relatar",
+    "10_acessibilidade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "A localização aproximada e a foto são opcionais. A foto aceita até 400 KB. A barra do topo permite aumentar e diminuir o tamanho do texto e ligar o modo de alto contraste. [01_como_relatar] [10_acessibilidade]"
+  },
+  {
+   "q": "posso relatar sem ligar a localização do celular?",
+   "tipo": "resposta",
+   "fontes": [
+    "01_como_relatar"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "A localização aproximada e a foto são opcionais. O botão Usar minha localização anexa coordenadas aproximadas se o navegador permitir. Se você não permitir a localização, basta descrever o local no texto. [01_como_relatar]"
+  },
+  {
+   "q": "o que devo evitar escrever no meu relato?",
+   "tipo": "resposta",
+   "fontes": [
+    "01_como_relatar",
+    "04_duplicidade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Não escreva nome, telefone, CPF, placa de veículo ou outros dados pessoais de terceiros, porque o texto do relato é lido pela triagem automática e aparece nas listas. Na página Consultar, o botão Também vejo isso registra o seu apoio a um relato que já existe. Cada pessoa apoia uma vez e não pode apoiar o próprio relato. [01_como_relatar] [04_duplicidade]"
+  },
+  {
+   "q": "quais tipos de problema a InovaCity atende?",
+   "tipo": "resposta",
+   "fontes": [
+    "13_limites",
+    "09_emergencias"
+   ],
+   "ok_doc": false,
+   "ok_fato": false,
+   "texto": "A InovaCity não conserta o problema, não garante prazo, não tem ligação com nenhuma prefeitura e não substitui a vistoria técnica. A InovaCity não atende emergências e não tem prazo de resposta. [13_limites] [09_emergencias]"
+  },
+  {
+   "q": "poste apagado entra em qual categoria?",
+   "tipo": "resposta",
+   "fontes": [
+    "02_categorias"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Iluminação pública: poste apagado, lâmpada queimada, rua escura. [02_categorias]"
+  },
+  {
+   "q": "qual órgão cuida dos alagamentos?",
+   "tipo": "resposta",
+   "fontes": [
+    "07_notificacao",
+    "02_categorias"
+   ],
+   "ok_doc": true,
+   "ok_fato": false,
+   "texto": "Depois da triagem, o sistema tenta notificar o órgão da categoria. A notificação é simulada: não existe integração real com nenhuma prefeitura ou órgão público. A InovaCity classifica os relatos em cinco categorias: buraco na via, iluminação pública, lixo e entulho, alagamento e drenagem, e calçada e acessibilidade. [07_notificacao] [02_categorias]"
+  },
+  {
+   "q": "boca de lobo entupida é qual categoria?",
+   "tipo": "resposta",
+   "fontes": [
+    "02_categorias"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Alagamento e drenagem: boca de lobo entupida, rua que alaga na chuva. [02_categorias]"
+  },
+  {
+   "q": "meu problema não é de nenhum desses tipos, e agora?",
+   "tipo": "resposta",
+   "fontes": [
+    "18_enchentes_como_agir"
+   ],
+   "ok_doc": false,
+   "ok_fato": false,
+   "texto": "Não aplique nenhum tipo de substância como álcool, pó de café, ervas, terra, querosene ou urina no local da picada. [18_enchentes_como_agir]"
+  },
+  {
+   "q": "como a prioridade de um relato é definida?",
+   "tipo": "resposta",
+   "fontes": [
+    "03_prioridade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Cada relato recebe prioridade alta, média ou baixa. A prioridade não depende de quantos relatos uma região recebe. [03_prioridade]"
+  },
+  {
+   "q": "quais palavras aumentam a prioridade?",
+   "tipo": "resposta",
+   "fontes": [
+    "03_prioridade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Palavras de risco no texto somam pontos, até 2: risco, acidente, queda, caiu, criança, urgente, perigo, perigosa, medo, invade, cadeira, idosos e muleta. Com 4 pontos ou mais a prioridade é alta, com 3 é média e abaixo disso é baixa. [03_prioridade]"
+  },
+  {
+   "q": "por que alagamento vale mais pontos que lixo?",
+   "tipo": "resposta",
+   "fontes": [
+    "03_prioridade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Cada categoria tem uma pontuação base: alagamento e drenagem vale 3, buraco, iluminação e calçada valem 2, e lixo e entulho vale 1. [03_prioridade]"
+  },
+  {
+   "q": "se meu bairro tem muitos relatos ele passa na frente?",
+   "tipo": "resposta",
+   "fontes": [
+    "03_prioridade",
+    "13_limites"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "A prioridade não depende de quantos relatos uma região recebe. Bairros com mais acesso à internet relatam mais, e isso não significa que tenham mais necessidade. É um protótipo acadêmico de um bairro-piloto. [03_prioridade] [13_limites]"
+  },
+  {
+   "q": "quantos pontos precisa pra prioridade ser alta?",
+   "tipo": "resposta",
+   "fontes": [
+    "03_prioridade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Com 4 pontos ou mais a prioridade é alta, com 3 é média e abaixo disso é baixa. [03_prioridade]"
+  },
+  {
+   "q": "o que acontece se duas pessoas relatam o mesmo buraco?",
+   "tipo": "resposta",
+   "fontes": [
+    "04_duplicidade"
+   ],
+   "ok_doc": true,
+   "ok_fato": false,
+   "texto": "Quando várias pessoas relatam o mesmo problema, a InovaCity agrupa os relatos para não abrir vários chamados iguais. [04_duplicidade]"
+  },
+  {
+   "q": "a que distância dois relatos são considerados o mesmo?",
+   "tipo": "resposta",
+   "fontes": [
+    "04_duplicidade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Dois relatos são considerados o mesmo problema quando têm a mesma categoria, ficam a até 150 metros um do outro (ou têm o mesmo local escrito, se não houver coordenadas) e os textos são parecidos, com similaridade de Jaccard de pelo menos 0,6. [04_duplicidade]"
+  },
+  {
+   "q": "como eu apoio um relato que já existe?",
+   "tipo": "resposta",
+   "fontes": [
+    "04_duplicidade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Na página Consultar, o botão Também vejo isso registra o seu apoio a um relato que já existe. [04_duplicidade]"
+  },
+  {
+   "q": "posso apoiar o meu próprio relato?",
+   "tipo": "resposta",
+   "fontes": [
+    "04_duplicidade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Cada pessoa apoia uma vez e não pode apoiar o próprio relato. [04_duplicidade]"
+  },
+  {
+   "q": "a partir de qual confiança o robô manda pra uma pessoa?",
+   "tipo": "resposta",
+   "fontes": [
+    "05_revisao_humana"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Se a confiança da classificação for menor que 0,45, ou seja, menos de 45%, o robô não decide sozinho. [05_revisao_humana]"
+  },
+  {
+   "q": "quem decide quando o robô fica na dúvida?",
+   "tipo": "resposta",
+   "fontes": [
+    "05_revisao_humana"
+   ],
+   "ok_doc": true,
+   "ok_fato": false,
+   "texto": "Se a confiança da classificação for menor que 0,45, ou seja, menos de 45%, o robô não decide sozinho. [05_revisao_humana]"
+  },
+  {
+   "q": "o robô acerta sempre a categoria?",
+   "tipo": "resposta",
+   "fontes": [
+    "05_revisao_humana"
+   ],
+   "ok_doc": true,
+   "ok_fato": false,
+   "texto": "Quem administra a plataforma vê o texto, a categoria que o robô sugeriu e a confiança. [05_revisao_humana]"
+  },
+  {
+   "q": "discordo da categoria do meu relato, o que faço?",
+   "tipo": "resposta",
+   "fontes": [
+    "02_categorias",
+    "05_revisao_humana"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Se o relato não se encaixar com segurança em nenhuma categoria, a confiança da triagem fica baixa e o relato vai para a revisão de uma pessoa da equipe. Pode confirmar ou corrigir a categoria, o que encaminha o relato, ou rejeitar o relato. [02_categorias] [05_revisao_humana]"
+  },
+  {
+   "q": "o que significa o status encaminhada?",
+   "tipo": "resposta",
+   "fontes": [
+    "06_status"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Um relato pode estar: Recebida, Em análise, Encaminhada, Resolvida, Revisão humana, Agrupada (duplicada) ou Rejeitada. O protótipo não tem integração com a prefeitura, então o status Encaminhada indica apenas que a notificação simulada foi enviada. [06_status]"
+  },
+  {
+   "q": "quais status um relato pode ter?",
+   "tipo": "resposta",
+   "fontes": [
+    "06_status"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Um relato pode estar: Recebida, Em análise, Encaminhada, Resolvida, Revisão humana, Agrupada (duplicada) ou Rejeitada. O protótipo não tem integração com a prefeitura, então o status Encaminhada indica apenas que a notificação simulada foi enviada. [06_status]"
+  },
+  {
+   "q": "em quanto tempo meu problema vai ser resolvido?",
+   "tipo": "resposta",
+   "fontes": [
+    "06_status"
+   ],
+   "ok_doc": true,
+   "ok_fato": false,
+   "texto": "Resolvida: a equipe marcou o problema como resolvido. [06_status]"
+  },
+  {
+   "q": "como vejo só os relatos que eu enviei?",
+   "tipo": "resposta",
+   "fontes": [
+    "04_duplicidade"
+   ],
+   "ok_doc": false,
+   "ok_fato": false,
+   "texto": "Na página Consultar, o botão Também vejo isso registra o seu apoio a um relato que já existe. [04_duplicidade]"
+  },
+  {
+   "q": "quantas vezes o sistema tenta avisar o órgão?",
+   "tipo": "resposta",
+   "fontes": [
+    "07_notificacao"
+   ],
+   "ok_doc": true,
+   "ok_fato": false,
+   "texto": "Depois da triagem, o sistema tenta notificar o órgão da categoria. [07_notificacao]"
+  },
+  {
+   "q": "o que acontece se o envio ao órgão falhar?",
+   "tipo": "resposta",
+   "fontes": [
+    "07_notificacao"
+   ],
+   "ok_doc": true,
+   "ok_fato": false,
+   "texto": "O envio tenta até 3 vezes. Quando o envio dá certo, o relato recebe um protocolo simulado que começa com SIM. [07_notificacao]"
+  },
+  {
+   "q": "a notificação chega mesmo na prefeitura?",
+   "tipo": "resposta",
+   "fontes": [
+    "07_notificacao",
+    "06_status"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "A notificação é simulada: não existe integração real com nenhuma prefeitura ou órgão público. O protótipo não tem integração com a prefeitura, então o status Encaminhada indica apenas que a notificação simulada foi enviada. [07_notificacao] [06_status]"
+  },
+  {
+   "q": "o que é o protocolo que começa com SIM?",
+   "tipo": "resposta",
+   "fontes": [
+    "07_notificacao"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Quando o envio dá certo, o relato recebe um protocolo simulado que começa com SIM. [07_notificacao]"
+  },
+  {
+   "q": "onde meus dados ficam salvos?",
+   "tipo": "resposta",
+   "fontes": [
+    "08_privacidade",
+    "10_acessibilidade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Por isso, limpar os dados do navegador apaga as informações. As preferências ficam salvas no navegador. [08_privacidade] [10_acessibilidade]"
+  },
+  {
+   "q": "a senha é guardada em texto?",
+   "tipo": "resposta",
+   "fontes": [
+    "08_privacidade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "A senha não é guardada em texto. [08_privacidade]"
+  },
+  {
+   "q": "como apago a minha conta?",
+   "tipo": "resposta",
+   "fontes": [
+    "14_conta"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Na página Sobre, o botão Excluir minha conta remove o seu cadastro deste navegador. É preciso aceitar o uso dos dados para criar a conta. [14_conta]"
+  },
+  {
+   "q": "quem consegue ver o meu nome nos relatos?",
+   "tipo": "resposta",
+   "fontes": [
+    "08_privacidade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Os relatos não mostram o nome de quem relatou, e a administração vê o e-mail mascarado. Ao criar a conta, você concorda com o uso do nome e do e-mail apenas para identificar os seus relatos. [08_privacidade]"
+  },
+  {
+   "q": "o que acontece se eu colocar meu telefone no relato?",
+   "tipo": "fora_de_escopo"
+  },
+  {
+   "q": "qual o telefone do SAMU?",
+   "tipo": "emergencia"
+  },
+  {
+   "q": "posso usar a InovaCity pra chamar os bombeiros?",
+   "tipo": "resposta",
+   "fontes": [
+    "04_duplicidade"
+   ],
+   "ok_doc": false,
+   "ok_fato": false,
+   "texto": "Quando várias pessoas relatam o mesmo problema, a InovaCity agrupa os relatos para não abrir vários chamados iguais. O relato repetido não gera novo chamado e soma apoio ao original. [04_duplicidade]"
+  },
+  {
+   "q": "qual o número da Defesa Civil?",
+   "tipo": "resposta",
+   "fontes": [
+    "11_painel",
+    "17_enchentes_saude"
+   ],
+   "ok_doc": false,
+   "ok_fato": false,
+   "texto": "Os números mostram o que foi relatado, não tudo o que existe na cidade. Cuidados gerais Informe-se com a Defesa e a Proteção Civil do seu município e com a equipe de saúde sobre as ameaças e os riscos aos quais a sua família está exposta. Informe-se com a Defesa e a Proteção Civil do seu município ou com o Núcleo de Defesa Civil sobre a exposição de riscos da sua cidade, do seu bairro, da sua rua e da sua moradia. [11_painel] [17_enchentes_saude]"
+  },
+  {
+   "q": "depois de uma emergência posso registrar o problema que a causou?",
+   "tipo": "resposta",
+   "fontes": [
+    "09_emergencias"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Passada a situação, você pode registrar o problema de infraestrutura que a causou, como um poste danificado ou um bueiro aberto, para a equipe organizar a vistoria. [09_emergencias]"
+  },
+  {
+   "q": "tem modo de alto contraste?",
+   "tipo": "resposta",
+   "fontes": [
+    "10_acessibilidade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "A barra do topo permite aumentar e diminuir o tamanho do texto e ligar o modo de alto contraste. [10_acessibilidade]"
+  },
+  {
+   "q": "dá pra usar o site só com o teclado?",
+   "tipo": "resposta",
+   "fontes": [
+    "10_acessibilidade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Todo o site funciona só com o teclado. [10_acessibilidade]"
+  },
+  {
+   "q": "como aumento o tamanho da letra?",
+   "tipo": "fora_de_escopo"
+  },
+  {
+   "q": "o site funciona com leitor de tela?",
+   "tipo": "resposta",
+   "fontes": [
+    "10_acessibilidade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Todo o site funciona só com o teclado. Há um link para pular direto ao conteúdo, os campos têm rótulos, as mensagens de erro e os resultados são anunciados por leitores de tela, e o estado dos relatos é sempre escrito em texto, nunca só por cor. [10_acessibilidade]"
+  },
+  {
+   "q": "o que aparece no painel público?",
+   "tipo": "resposta",
+   "fontes": [
+    "11_painel"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "O painel público mostra o total de relatos, quantos estão em aberto, resolvidos e agrupados, a distribuição por categoria e por situação, e um mapa esquemático com os pontos coloridos pela prioridade. [11_painel]"
+  },
+  {
+   "q": "o mapa mostra as ruas?",
+   "tipo": "resposta",
+   "fontes": [
+    "11_painel"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "O mapa é um esquema da distribuição dos relatos, não um mapa de ruas. O painel público mostra o total de relatos, quantos estão em aberto, resolvidos e agrupados, a distribuição por categoria e por situação, e um mapa esquemático com os pontos coloridos pela prioridade. [11_painel]"
+  },
+  {
+   "q": "mais relatos significa mais problemas?",
+   "tipo": "resposta",
+   "fontes": [
+    "03_prioridade"
+   ],
+   "ok_doc": false,
+   "ok_fato": true,
+   "texto": "Bairros com mais acesso à internet relatam mais, e isso não significa que tenham mais necessidade. [03_prioridade]"
+  },
+  {
+   "q": "que colunas o CSV do robô precisa ter?",
+   "tipo": "resposta",
+   "fontes": [
+    "12_robo_rpa"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "O robô de RPA processa lotes de relatos em CSV com as colunas id, texto, lat, lon e data. [12_robo_rpa]"
+  },
+  {
+   "q": "o que o robô faz com linhas inválidas?",
+   "tipo": "resposta",
+   "fontes": [
+    "12_robo_rpa"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Linhas inválidas, como texto vazio, coordenada fora do intervalo ou data impossível, vão para a quarentena com o motivo, e o robô segue com as demais. [12_robo_rpa]"
+  },
+  {
+   "q": "se eu rodar o mesmo arquivo duas vezes o que acontece?",
+   "tipo": "resposta",
+   "fontes": [
+    "12_robo_rpa"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Se o mesmo arquivo for processado de novo, as linhas repetidas são ignoradas, o que evita notificar o órgão duas vezes. [12_robo_rpa]"
+  },
+  {
+   "q": "posso testar o robô no site com um arquivo meu?",
+   "tipo": "resposta",
+   "fontes": [
+    "12_robo_rpa"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "O robô guarda os identificadores já processados. Se o mesmo arquivo for processado de novo, as linhas repetidas são ignoradas, o que evita notificar o órgão duas vezes. [12_robo_rpa]"
+  },
+  {
+   "q": "a InovaCity tem ligação com a prefeitura?",
+   "tipo": "resposta",
+   "fontes": [
+    "13_limites"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "A InovaCity não conserta o problema, não garante prazo, não tem ligação com nenhuma prefeitura e não substitui a vistoria técnica. [13_limites]"
+  },
+  {
+   "q": "os relatos que aparecem no site são reais?",
+   "tipo": "resposta",
+   "fontes": [
+    "13_limites"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Os relatos que aparecem ao abrir o site são dados de demonstração, fictícios. O classificador foi treinado com dados sintéticos, e o desempenho com relatos reais não foi medido. [13_limites]"
+  },
+  {
+   "q": "o login do protótipo é seguro de verdade?",
+   "tipo": "resposta",
+   "fontes": [
+    "13_limites",
+    "08_privacidade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "O login é local, no navegador, e serve para demonstração. Em um sistema real, o login ficaria em um servidor, e esta proteção local não substitui isso. [13_limites] [08_privacidade]"
+  },
+  {
+   "q": "como crio uma conta?",
+   "tipo": "resposta",
+   "fontes": [
+    "14_conta"
+   ],
+   "ok_doc": true,
+   "ok_fato": false,
+   "texto": "É preciso aceitar o uso dos dados para criar a conta. Na página Sobre, o botão Excluir minha conta remove o seu cadastro deste navegador. [14_conta]"
+  },
+  {
+   "q": "qual a diferença entre cidadão e administrador?",
+   "tipo": "resposta",
+   "fontes": [
+    "14_conta",
+    "15_administracao"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Há dois papéis: cidadão e administrador. Quem tem conta de cidadão não acessa a administração: o site mostra a mensagem de acesso restrito. [14_conta] [15_administracao]"
+  },
+  {
+   "q": "por que a mensagem de erro do login é sempre a mesma?",
+   "tipo": "resposta",
+   "fontes": [
+    "14_conta"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "A mensagem de erro é a mesma para e-mail inexistente e senha errada, para não revelar quais contas existem. [14_conta]"
+  },
+  {
+   "q": "o administrador pode exportar os dados?",
+   "tipo": "resposta",
+   "fontes": [
+    "15_administracao"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Na aba Ocorrências, o administrador altera a situação de um relato para em análise, encaminhada, resolvida ou rejeitada, e exporta a lista em CSV. A administração tem sete abas: visão geral, revisão humana, ocorrências, notificações, usuários, registro do robô e dados. [15_administracao]"
+  },
+  {
+   "q": "quantas abas tem a administração?",
+   "tipo": "resposta",
+   "fontes": [
+    "15_administracao"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "A administração tem sete abas: visão geral, revisão humana, ocorrências, notificações, usuários, registro do robô e dados. [15_administracao]"
+  },
+  {
+   "q": "quem não é administrador consegue entrar na área de admin?",
+   "tipo": "resposta",
+   "fontes": [
+    "15_administracao",
+    "14_conta"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "A administração tem sete abas: visão geral, revisão humana, ocorrências, notificações, usuários, registro do robô e dados. Quem tem conta de cidadão não acessa a administração: o site mostra a mensagem de acesso restrito. O administrador acessa a área de administração, com fila de revisão humana, notificações, usuários, registro do robô e dados. [15_administracao] [14_conta]"
+  },
+  {
+   "q": "qual o maior risco da solução?",
+   "tipo": "resposta",
+   "fontes": [
+    "16_equidade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "O principal risco da solução é o viés territorial: bairros que mais relatam poderiam ser atendidos primeiro. [16_equidade]"
+  },
+  {
+   "q": "o que a plataforma faz pra não favorecer bairros com mais acesso?",
+   "tipo": "resposta",
+   "fontes": [
+    "03_prioridade"
+   ],
+   "ok_doc": true,
+   "ok_fato": false,
+   "texto": "Bairros com mais acesso à internet relatam mais, e isso não significa que tenham mais necessidade. [03_prioridade]"
+  },
+  {
+   "q": "com quais ODS a InovaCity se relaciona?",
+   "tipo": "resposta",
+   "fontes": [
+    "16_equidade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "A InovaCity se relaciona com o ODS 9 (infraestrutura), o ODS 10 (redução das desigualdades) e o ODS 11 (cidades sustentáveis). [16_equidade]"
+  },
+  {
+   "q": "mandei um relato e sumiu, cadê ele?",
+   "tipo": "resposta",
+   "fontes": [
+    "04_duplicidade",
+    "06_status"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Na página Consultar, o botão Também vejo isso registra o seu apoio a um relato que já existe. Cada pessoa apoia uma vez e não pode apoiar o próprio relato. Recebida: o relato foi registrado. [04_duplicidade] [06_status]"
+  },
+  {
+   "q": "a lampada do poste queimou, onde eu reclamo?",
+   "tipo": "resposta",
+   "fontes": [
+    "02_categorias"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Iluminação pública: poste apagado, lâmpada queimada, rua escura. [02_categorias]"
+  },
+  {
+   "q": "tem como eu ver o andamento do que eu enviei?",
+   "tipo": "resposta",
+   "fontes": [
+    "06_status"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Na página Consultar, abra Ver detalhes para ler o andamento, com data e hora de cada passo. [06_status]"
+  },
+  {
+   "q": "o sistema erra a categoria às vezes?",
+   "tipo": "resposta",
+   "fontes": [
+    "07_notificacao"
+   ],
+   "ok_doc": false,
+   "ok_fato": false,
+   "texto": "Depois da triagem, o sistema tenta notificar o órgão da categoria. [07_notificacao]"
+  },
+  {
+   "q": "quero saber se alguém já avisou desse mesmo buraco",
+   "tipo": "fora_de_escopo"
+  },
+  {
+   "q": "pq meu relato foi parar na fila de uma pessoa?",
+   "tipo": "resposta",
+   "fontes": [
+    "05_revisao_humana"
+   ],
+   "ok_doc": true,
+   "ok_fato": false,
+   "texto": "O relato recebe o status Revisão humana e entra na fila da equipe de administração. [05_revisao_humana]"
+  },
+  {
+   "q": "tem rampa pra cadeirante no relato de calçada?",
+   "tipo": "resposta",
+   "fontes": [
+    "02_categorias",
+    "10_acessibilidade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "Calçada e acessibilidade: calçada quebrada, falta de rampa, obstáculo para cadeira de rodas. Calçadas quebradas, falta de rampa e obstáculos para cadeira de rodas, muletas ou idosos são tratados na categoria calçada e acessibilidade, e termos como cadeira, idosos e muleta aumentam a prioridade. [02_categorias] [10_acessibilidade]"
+  },
+  {
+   "q": "quanto a foto pode pesar",
+   "tipo": "resposta",
+   "fontes": [
+    "01_como_relatar",
+    "08_privacidade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "A localização aproximada e a foto são opcionais. A foto aceita até 400 KB. O relato guarda título, descrição, local e, se você quiser, foto e coordenadas aproximadas. [01_como_relatar] [08_privacidade]"
+  },
+  {
+   "q": "minha senha fica salva de que jeito?",
+   "tipo": "resposta",
+   "fontes": [
+    "08_privacidade",
+    "10_acessibilidade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "A senha não é guardada em texto. As preferências ficam salvas no navegador. [08_privacidade] [10_acessibilidade]"
+  },
+  {
+   "q": "o robo manda pra prefeitura de verdade?",
+   "tipo": "resposta",
+   "fontes": [
+    "06_status",
+    "13_limites"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "O protótipo não tem integração com a prefeitura, então o status Encaminhada indica apenas que a notificação simulada foi enviada. A InovaCity não conserta o problema, não garante prazo, não tem ligação com nenhuma prefeitura e não substitui a vistoria técnica. [06_status] [13_limites]"
+  },
+  {
+   "q": "qual categoria pra entulho na calçada?",
+   "tipo": "resposta",
+   "fontes": [
+    "02_categorias",
+    "03_prioridade"
+   ],
+   "ok_doc": true,
+   "ok_fato": true,
+   "texto": "A InovaCity classifica os relatos em cinco categorias: buraco na via, iluminação pública, lixo e entulho, alagamento e drenagem, e calçada e acessibilidade. Cada categoria tem uma pontuação base: alagamento e drenagem vale 3, buraco, iluminação e calçada valem 2, e lixo e entulho vale 1. [02_categorias] [03_prioridade]"
+  },
+  {
+   "q": "oq acontece qnd o robo nao tem certeza?",
+   "tipo": "resposta",
+   "fontes": [
+    "12_robo_rpa"
+   ],
+   "ok_doc": false,
+   "ok_fato": false,
+   "texto": "O robô de RPA processa lotes de relatos em CSV com as colunas id, texto, lat, lon e data. Linhas inválidas, como texto vazio, coordenada fora do intervalo ou data impossível, vão para a quarentena com o motivo, e o robô segue com as demais. [12_robo_rpa]"
+  }
+ ],
+ "agente_fora_escopo": {
+  "n": 16,
+  "recusou": 12
+ },
+ "emergencia": {
+  "vp": 10,
+  "fp": 2,
+  "fn": 0,
+  "precisao": 0.8333333333333334,
+  "revocacao": 1.0,
+  "n_pos": 10,
+  "n_neg": 12,
+  "perdidos": [],
+  "falsos": [
+   "o fogo de artifício queimou a lâmpada do poste ontem",
+   "quero fazer um desabafo sobre a demora do atendimento"
+  ]
+ },
+ "pii": {
+  "vp": 17,
+  "fp": 1,
+  "fn": 0,
+  "precisao": 0.9444444444444444,
+  "revocacao": 1.0,
+  "n_casos": 14,
+  "n_neg": 11,
+  "perdidos": [],
+  "falsos": [
+   "o protocolo 1234567890 não aparece"
+  ]
+ },
+ "injecao": {
+  "vp": 8,
+  "fp": 0,
+  "fn": 0,
+  "precisao": 1.0,
+  "revocacao": 1.0,
+  "n_pos": 8,
+  "n_neg": 97,
+  "perdidos": [],
+  "falsos": []
+ },
+ "status": {
+  "n": 10,
+  "corretos": 10,
+  "falhas": []
+ }
+}

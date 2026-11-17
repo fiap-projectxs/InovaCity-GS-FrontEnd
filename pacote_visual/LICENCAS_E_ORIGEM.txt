@@ -1,0 +1,19 @@
+InovaCity - Pacote visual: origem, autoria e licença
+
+logo/logo_inovacity.png, logo_inovacity_original.png, icone-192.png, icone-512.png
+  Origem: logo da InovaCity fornecido pelo grupo (versão original) e versões redimensionadas a partir dele. Autoria: grupo InovaCity. Licença: uso no projeto acadêmico; direitos do grupo.
+
+mascote/inovabot.png, inovabot-avatar.png, ilustracoes/inovabot.png
+  Origem: mascote Inova Bot fornecido pelo grupo (imagem enviada pelo usuário). Autoria: grupo InovaCity. Licença: uso no projeto acadêmico; direitos do grupo.
+
+icones/*.svg e *.png
+  Origem: desenhados para este projeto (formas geométricas simples, sem material de terceiros). Autoria: criados com ajuda do assistente Claude para o grupo. Licença: livre para uso no projeto.
+
+capturas/site_*.png, capturas/gif_*_estatico.png, gifs/*.gif
+  Origem: capturas reais do site rodando localmente, em navegador automatizado, em 17/11/2026. Dados exibidos são sintéticos ou simulados (etiquetados no próprio site). Não são fotos reais da cidade.
+
+  Origem: gráficos gerados em Python (matplotlib) a partir de resultados.json da avaliação do InovaBot. Autoria: grupo.
+
+Fontes de texto do site: Fredoka e Nunito (Google Fonts), licença SIL Open Font License 1.1, carregadas do Google Fonts quando há internet.
+Imagens de terceiros ou fotos de ruas: nenhuma.
+Observação: os GIFs mostram só fluxos realmente implementados. O fluxo de detecção com YOLO não tem GIF porque o modelo ainda não foi treinado.

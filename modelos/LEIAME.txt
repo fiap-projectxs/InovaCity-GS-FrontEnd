@@ -1,0 +1,4 @@
+Coloque aqui o modelo exportado do Ultralytics:
+  modelo.onnx   (yolo export model=best.pt format=onnx imgsz=640)
+  classes.txt   (um nome de classe por linha, na ordem do treino)
+Sem esses arquivos, o site faz só a leitura básica da imagem e não detecta ocorrências.

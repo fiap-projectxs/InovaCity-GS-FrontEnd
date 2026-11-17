@@ -1,0 +1,16 @@
+{"version":1,"author":"InovaCity","editor":"wokwi",
+"parts":[
+{"type":"board-esp32-devkit-c-v4","id":"esp","top":0,"left":200,"attrs":{}},
+{"type":"wokwi-dht22","id":"dht1","top":60,"left":30,"rotate":270,"vflip":1,"attrs":{}},
+{"type":"wokwi-hc-sr04","id":"ultra1","top":20,"left":380,"rotate":270,"attrs":{}}],
+"connections":[
+["esp:TX","$serialMonitor:RX","",[]],
+["esp:RX","$serialMonitor:TX","",[]],
+["dht1:VCC","esp:3V3","red",[]],
+["dht1:SDA","esp:13","green",[]],
+["dht1:GND","esp:GND.1","black",[]],
+["ultra1:GND","esp:GND.3","black",[]],
+["ultra1:ECHO","esp:23","orange",[]],
+["ultra1:TRIG","esp:22","blue",[]],
+["ultra1:VCC","esp:5V","purple",["h20","v140","h-300"]]],
+"dependencies":{}}

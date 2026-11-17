@@ -1,0 +1,24 @@
+{
+  "name": "InovaCity",
+  "short_name": "InovaCity",
+  "description": "Conectando pessoas. Transformando cidades.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F7F4EC",
+  "theme_color": "#012B58",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "icone-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icone-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
